@@ -18,7 +18,17 @@
  */
 
 // TODO: 아래 코드를 작성하세요.
-class Person {}
-class Employee {}
+class Person {
+  constructor(name) {
+    this.name = name;
+  };
+  sayHello = function() {
+    return `Hello, I'm ${this.name}`
+  };
+}
+
+class Employee {
+  constructor()
+}
 
 export { Person, Employee };

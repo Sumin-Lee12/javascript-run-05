@@ -11,6 +11,9 @@
  * @returns {Function} - calc(op, num)
  */
 
-function closureWithParams() {}
+function closureWithParams() {
+  let base = 10;
+  return calc(op, num);
+}
 
 export { closureWithParams };
